@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<style>
+    form{
+        background-color: rgb(94, 4, 132);
+        padding: 8px;
+        color: #fff;
+        font-size: 20px;
+    }
+    label, select, textarea{
+        display: block;
+        margin: 8px;
+
+    }
+    input{
+        padding: 5px;
+    }
+</style>
+
+<body style="background-color: aquamarine;">
+    <!-- Form with HTML -->
+    <div>
+    <Form>
+        <label for="">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Write your name">
+        
+        <label for="">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Write your email">
+        
+        <label for="">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password"> <br><br>
+        <input type="submit" value="Submit">
+        </Form>
+    </div>
+    
+    <!-- Message with HTML -->
+    <div>
+        <H3>Send Massage!!</H3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="Type your message"></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+    <!-- Drop Down Menu with HTML -->
+     <div>
+        <h2>DROP DOWN MENU & RADIO BUTTON</h2>
+        <form>
+            <label for="country">Country (Dropdown):</label>
+            <select name="country" id="country">
+                <option value="">Select your country</option>
+                <option value="usa">U.S.A.</option>
+                <option value="uk">United Kingdom</option>
+                <option value="canada">Canada</option>
+                <option value="singapore">Singapore</option>
+                <option value="srilanka">Srilanka</option>
+                <option value="bangladesh">Bangladesh</option>
+            </select>
+
+        </form>
+     </div>
+
+     <!-- Radio Button -->
+      <div>
+        <form>
+            <label for="">Gender (Radio Button)</label>
+            <label>
+                <input type="radio" name="gender" id="male" value="male"> Male
+            </label>
+            
+            <label>
+                <input type="radio" name="gender" id="female" value="female"> Female
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+        <form>
+            <h3>Choose your color (Radio Button)</h3>
+            <label>
+                <input type="radio" name="color" value="black"> Black
+            </label>
+            <label>
+                <input type="radio" name="color" value="red"> Red
+            </label>
+            <label>
+                <input type="radio" name="color" value="green"> Green
+            </label>
+            <label>
+                <input type="radio" name="color" value="blue"> Blue
+            </label>
+            <label>
+                <input type="radio" name="color" value="yellow"> Yellow
+            </label>
+            <label>
+                <input type="radio" name="color" value="violet"> Violet
+            </label>
+            <label>
+                <input type="radio" name="color" value="white"> White
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+      </div>
+
+      <!-- CHECKBOX -->
+      <div>
+        <H3>Select your subjects (CheckBox)</H3>
+        <form>
+            <label>
+                <input type="checkbox" name="subject" value="english"> English
+            </label>
+            <label>
+                <input type="checkbox" name="subject" value="bangla"> Bangla
+            </label>
+            <label>
+                <input type="checkbox" name="subject" value="math"> Math
+            </label>
+            <label>
+                <input type="checkbox" name="subject" value="religion"> Religion
+            </label>
+            <label>
+                <input type="checkbox" name="subject" value="history"> History
+            </label>
+            <label>
+                <input type="checkbox" name="subject" value="economics"> Economics
+            </label>
+            <input type="submit" value="Submit">
+        </form>
+        </div>
+
+</body>
+</html>
